@@ -1,0 +1,53 @@
+body {
+  background-color: gainsboro;
+  color: DarkSlateGrey;
+  font-family: 'Lucida Console';
+}
+
+
+h1 {
+  background-color: DarkSlateGrey;
+  text-align: center;
+  color: gainsboro;
+  padding: 10px;
+  margin: auto;
+}
+
+h3 {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    border: 2px solid darkgray;
+    text-align: justify;
+    font-size: 18px;
+    border-collapse: collapse;
+    
+}
+
+td {
+    border: 1px solid darkgray;
+    padding: 10px;
+    text-align: justify;
+    border-collapse: collapse;
+}
+
+tr:hover {
+    background-color: rgb(185, 185, 185)
+}
+
+.coll {
+    font-weight: bold;
+    border: 1px solid darkgray;
+}
+
+tr {
+    height: 30px;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: center;
+    border-collapse: collapse;
+}
