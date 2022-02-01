@@ -23,7 +23,7 @@ table {
     text-align: justify;
     font-size: 18px;
     border-collapse: collapse;
-    
+    width: 98%;
 }
 
 td {
@@ -50,4 +50,12 @@ tr {
 th {
     text-align: center;
     border-collapse: collapse;
+}
+
+.table-inline {
+    display: inline-block;
+    text-align: center;
+    width: 49%;
+    margin-left: auto;
+    margin-right: auto;
 }
