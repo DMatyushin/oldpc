@@ -1,25 +1,25 @@
 body {
-  background-color: gainsboro;
-  color: DarkSlateGrey;
-  font-family: 'Lucida Console';
+  background-color: #002b36;
+  color: #93a1a1;
+  font-family: Consolas, monaco, monospace;
 }
 
 
 h1 {
-  background-color: DarkSlateGrey;
   text-align: center;
-  color: gainsboro;
+  color: #93a1a1;
   padding: 10px;
   margin: auto;
 }
 
 h3 {
     text-align: center;
+    color: #93a1a1;
 }
 
 table {
     margin: auto;
-    border: 2px solid darkgray;
+    border: 2px solid #586e75;
     text-align: justify;
     font-size: 18px;
     border-collapse: collapse;
@@ -27,19 +27,20 @@ table {
 }
 
 td {
-    border: 1px solid darkgray;
+    border: 1px solid #586e75;
     padding: 10px;
     text-align: justify;
     border-collapse: collapse;
 }
 
 tr:hover {
-    background-color: rgb(185, 185, 185)
+    background-color: #073642
 }
 
 .coll {
     font-weight: bold;
-    border: 1px solid darkgray;
+    border: 1px solid #586e75;
+    color: #2aa198;
 }
 
 tr {
@@ -50,6 +51,7 @@ tr {
 th {
     text-align: center;
     border-collapse: collapse;
+    color: #859900;
 }
 
 .table-inline {
