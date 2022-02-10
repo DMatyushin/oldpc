@@ -12,7 +12,7 @@ h1 {
   margin: auto;
 }
 
-h3 {
+h2 {
     text-align: center;
     color: #93a1a1;
 }
@@ -24,6 +24,7 @@ table {
     font-size: 18px;
     border-collapse: collapse;
     width: 98%;
+    
 }
 
 td {
@@ -31,6 +32,7 @@ td {
     padding: 10px;
     text-align: justify;
     border-collapse: collapse;
+    
 }
 
 tr:hover {
@@ -55,9 +57,44 @@ th {
 }
 
 .table-inline {
-    display: inline-block;
     text-align: center;
     width: 49%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.code1 {
+    border: 1px solid #93a1a1;
+    border-radius: 3px;
+    width: 40%;
+    height: 100px;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.atr {
+    margin: auto;
+    border: 2px solid #93a1a1;
+    text-align: justify;
+    font-size: 18px;
+    border-collapse: collapse;
+    width: 40%;
+}
+
+p {
+    font-size: 18px;
+    padding: 50px 50px;
+}
+
+.tag {
+    color:#859900;
+}
+
+.css-tag {
+    color: #268bd2;
+}
+
+a {
+    color: #2aa198;
 }

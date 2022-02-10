@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <h1>Table</h1>
+    <title>Table</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <p>
+        Элемент <span class="tag">&lt;table&gt;</span> служит контейнером для элементов, определяющих содержимое таблицы. Любая таблица состоит из строк и ячеек, которые задаются с помощью тегов <span class="tag">&lt;tr&gt;</span> и <span class="tag">&lt;td&gt;</span>. Внутри <span class="tag">&lt;table&gt;</span> допустимо использовать следующие элементы: <span class="tag">&lt;caption&gt;</span>, <span class="tag">&lt;col&gt;</span>, <span class="tag">&lt;colgroup&gt;</span>, <span class="tag">&lt;tbody&gt;</span>, <span class="tag">&lt;td&gt;</span>, <span class="tag">&lt;tfoot&gt;</span>, <span class="tag">&lt;th&gt;</span>, <span class="tag">&lt;thead&gt;</span> и <span class="tag">&lt;tr&gt;</span>.
+
+        Таблицы с невидимой границей долгое время использовались для верстки веб-страниц, позволяя разделять документ на модульные блоки. Подобный способ применения таблиц нашел воплощение на многих сайтах, пока ему на смену не пришел более современный способ верстки с помощью слоев.
+    </p>
+    <h2>Атрибуты</h2>
+    <table class="atr">
+        <tr>
+            <td class="css-tag">align</td>
+            <td>Определяет выравнивание таблицы</td>
+        </tr>
+        <tr>
+            <td class="css-tag">background</td>
+            <td>Задает фоновый рисунок в таблице.</td>
+        </tr>
+        <tr>
+            <td class="css-tag">bgcolor</td>
+            <td>Цвет фона таблицы.</td>
+        </tr>
+        <tr>
+            <td class="css-tag">border</td>
+            <td>Толщина рамки в пикселах.</td>
+        </tr>
+        <tr>
+            <td class="css-tag">bordercolor</td>
+            <td>Цвет рамки.</td>
+        </tr>
+        <tr>
+            <td class="css-tag">cellpadding</td>
+            <td>Отступ от рамки до содержимого ячейки.</td>
+        </tr>
+        <tr>
+            <td class="css-tag">cellspacing</td>
+            <td>Расстояние между ячейками.</td>
+        </tr>
+        <tr>
+            <td class="css-tag">cols</td>
+            <td>Число колонок в таблице</td>
+        </tr>
+        <tr>
+            <td class="css-tag">frame</td>
+            <td>Сообщает браузеру, как отображать границы вокруг таблицы.</td>
+        </tr>
+        <tr>
+            <td class="css-tag">height</td>
+            <td>Высота таблицы.</td>
+        </tr>
+        <tr>
+            <td class="css-tag">rules</td>
+            <td>Сообщает браузеру, где отображать границы между ячейками.</td>
+        </tr>
+        <tr>
+            <td class="css-tag">summary</td>
+            <td>Краткое описание таблицы.</td>
+        </tr>
+        <tr>
+            <td class="css-tag">width</td>
+            <td>Ширина таблицы.</td>
+        </tr>
+    </table>
+
+    <h2>Пример:</h2>
+    <pre>
+        <code>
+            <pre class="hljs" style="font-size: 16px; width: 40%; margin-left: auto; margin-right: auto; border: 1px solid #93a1a1; display: block; overflow-x: auto; padding: 0.5em; background: rgba(0, 43, 54, 0.568); color: rgb(131, 148, 150);"><span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;table&gt;</span>
+    <span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;tr&gt;</span>
+        <span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;td&gt;</span>&amp;nbsp;<span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;/td&gt;</span>
+        <span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;td&gt;</span>Knocky<span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;/td&gt;</span>
+        <span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;td&gt;</span>Flor<span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;/td&gt;</span>
+        <span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;td&gt;</span>Ella<span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;/td&gt;</span>
+        <span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;td&gt;</span>Juan<span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;/td&gt;</span>
+    <span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;/tr&gt;</span>
+    <span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;tr&gt;</span>
+        <span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;td&gt;</span>Breed<span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;/td&gt;</span>
+        <span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;td&gt;</span>Jack Russell<span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;/td&gt;</span>
+        <span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;td&gt;</span>Poodle<span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;/td&gt;</span>
+        <span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;td&gt;</span>Streetdog<span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;/td&gt;</span>
+        <span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;td&gt;</span>Cocker Spaniel<span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;/td&gt;</span>
+    <span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;/tr&gt;</span>
+    <span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;tr&gt;</span>
+        <span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;td&gt;</span>Age<span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;/td&gt;</span>
+        <span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;td&gt;</span>16<span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;/td&gt;</span>
+        <span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;td&gt;</span>9<span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;/td&gt;</span>
+        <span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;td&gt;</span>10<span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;/td&gt;</span>
+        <span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;td&gt;</span>5<span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;/td&gt;</span>
+    <span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;/tr&gt;</span>
+    <span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;tr&gt;</span>
+        <span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;td&gt;</span>Owner<span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;/td&gt;</span>
+        <span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;td&gt;</span>Mother-in-law<span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;/td&gt;</span>
+        <span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;td&gt;</span>Me<span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;/td&gt;</span>
+        <span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;td&gt;</span>Me<span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;/td&gt;</span>
+        <span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;td&gt;</span>Sister-in-law<span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;/td&gt;</span>
+    <span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;/tr&gt;</span>
+    <span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;tr&gt;</span>
+        <span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;td&gt;</span>Eating Habits<span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;/td&gt;</span>
+        <span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;td&gt;</span>Eats everyone's leftovers<span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;/td&gt;</span>
+        <span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;td&gt;</span>Nibbles at food<span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;/td&gt;</span>
+        <span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;td&gt;</span>Hearty eater<span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;/td&gt;</span>
+        <span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;td&gt;</span>Will eat till he explodes<span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;/td&gt;</span>
+    <span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;/tr&gt;</span>
+<span class="hljs-attribute" style="color: rgb(181, 137, 0);">&lt;/table&gt;</span></pre>
+        </code>
+    </pre>
+
+</body>
+</html>
