@@ -1,15 +1,18 @@
 body {
-  background-color: #002b36;
+  background-color: rgb(37, 37, 37);
   color: #93a1a1;
   font-family: Consolas, monaco, monospace;
+  
+  
 }
 
 
 h1 {
   text-align: center;
-  color: #93a1a1;
+  color: rgb(37, 37, 37);
   padding: 10px;
   margin: auto;
+  background-color: #2aa198;
 }
 
 h2 {
@@ -79,7 +82,7 @@ th {
     text-align: justify;
     font-size: 18px;
     border-collapse: collapse;
-    width: 75%;
+    width: 90%;
 }
 
 p {
@@ -92,9 +95,43 @@ p {
 }
 
 .css-tag {
-    color: #268bd2;
+    color: #2aa198;
 }
 
 a {
     color: #2aa198;
+}
+
+#wrapper {
+    width: 60%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#side-menu {
+    width: 20%;
+    position: absolute;
+    left: 0;
+    top: 80px;
+    
+    
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+
+li {
+    font-size: 22px;
+    list-style-type: none;
+    margin: 0 2px 0 0;
+    background-color: rgb(41, 41, 41);
+    border: 1px solid rgb(68, 68, 68);
 }
