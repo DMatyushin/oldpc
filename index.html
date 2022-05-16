@@ -1,124 +1,85 @@
 <!DOCTYPE html>
 <head>
-<h1>Справочник по HTML и CSS тегам</h1>
-<link href="style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="main.js" charset="utf-8"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+
+    <audio id="myAudio" loop>
+        <source src="media/ambient.mp3">
+    </audio>
+    <audio id="audio-button">
+        <source src="media/button.mp3">
+    </audio>
 </head>
 
-<body>
+<body onload="init()">
 
-<div class="table-inline">
-    <h2>HTML tags</h2>
-    <table>
-        <thead>
-            <th>Tag</th>
-            <th>Name</th>
-            <th>Description</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td class="coll"><a href="table.html">table</a></td>
-                <td>Table</td>
-                <td>Обертка для всех HTML таблиц</td>
-            </tr>
-            <tr>
-                <td class="coll">thead</td>
-                <td>Table head</td>
-                <td>Определяет заголовки столбцов в таблице.</td>
-            </tr>
-            <tr>
-                <td class="coll">tbody</td>
-                <td>Table Body</td>
-                <td>Содержит данные таблицы (строки)</td>
-            </tr>
-            <tr>
-                <td class="coll">tr</td>
-                <td>Table Row</td>
-                <td>Строка таблицы</td>
-            </tr>
-            <tr>
-                <td class="coll">td</td>
-                <td>Table Data</td>
-                <td>Ячейка таблицы</td>
-            </tr>
-            <tr>
-                <td class="coll">tfoot</td>
-                <td>Table Footer</td>
-                <td>Определяет нижний колонтитул в таблице</td>
-            </tr>
-            <tr>
-                <td class="coll">p</td>
-                <td>Paragraph</td>
-                <td>Новый абзац</td>
-            </tr>
-            <tr>
-                <td class="coll">h</td>
-                <td>Header</td>
-                <td>Заголовок. Размеры от малого к большому: h6 - h1</td>
-            </tr>
-            <tr>
-                <td class="coll">ol</td>
-                <td>Ordered List</td>
-                <td>Структурированный список</td>
-            </tr>
-            <tr>
-                <td class="coll">ul</td>
-                <td>Unsorted List</td>
-                <td>Неструктурированный список</td>
-            </tr>
-            <tr>
-                <td class="coll">title</td>
-                <td>Title</td>
-                <td>Заголовок страницы во вкладке браузера</td>
-            </tr>
-        </tbody>
-    </table>
-</div>
+    <div id="main-mon">
+        <p style="text-align: center; font-size: 12px; line-height: 1;">Curiosity ZV 6-2386 32K</p>
+        <p style="text-align: center; font-size: 9px; line-height: 1;">Boston Computers Inc. 1984</p>
+        <div id="frame-mon">
 
-<div class="table-inline">
-    <h2>CSS attributes</h2>
-    <table>
-        <thead>
-            <th>Attribute</th>
-            <th>Name</th>
-            <th>Value</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td class="coll">color</td>
-                <td>Цвет текста</td>
-                <td>Цвет в формате #FFFFFF или rgb(0,0,0)</td>
-            </tr>
-            <tr>
-                <td class="coll">font-family</td>
-                <td>Шрифт</td>
-                <td>Verdana, 'Arial Light'</td>
-            </tr>
-            <tr>
-                <td class="coll">font-size</td>
-                <td>Размер шрифта</td>
-                <td>12px</td>
-            </tr>
-            <tr>
-                <td class="coll">height</td>
-                <td>Высота</td>
-                <td>150px || 100em</td>
-            </tr>
-            <tr>
-                <td class="coll">width</td>
-                <td>Ширина</td>
-                <td>150px || 100em</td>
-            </tr>
-            <tr>
-                <td class="coll">font-weight</td>
-                <td>Насыщенность текста</td>
-                <td>bold || 900</td>
-            </tr>
-        </tbody>
-    </table>
-</div>
+        
+            <div id="mon">
+
+                <div id="main-window">
+                    <p style="margin: 10px 10px; text-align:center;">
+                        Boston Computers Inc 
+                    </p>
+                    <p style="margin: 10px 10px; text-align:justify;">
+                        Привет, Admin! Добро пожаловать в United OS ver. 1.07.2905!
+                    </p>
+
+                    <p style="margin: 10px 10px; text-align:center;">
+                        <img src='media/UOS.png'>
+                    </p>
+
+
+                    <p style="margin: 10px 10px; text-align:justify;">
+                        Наберите help для получения справки/помощи о доступных коммандах.
+                    </p><br> <br>
+                    <p style="margin: 10px 10px; text-align:justify;">
+                        Hardware init: CPU ZEN i186 10 MHz, RAM 32 Kb, HDD 2.54 Mb
+                    </p>
+
+                </div>
+                <div id="inp">
+                    
+                    <p>Admin></p>
+                    <input id="input-main" type="text" value="" onkeypress="handleKeyPress(event, value, name)" name="">
+                    
+                </div>
+
+            </div>
+        </div>
+        
+        <div id="buttons">
+            <button onclick="autoplay()"><img src="media/pwr.png" height="30px" width="30px" style="background-color: lightgray;"></button>
+            <button onclick="autostop()"><img src="media/rbt.png" height="30px" width="30px" style="background-color: lightgray;"></button>
+        </div>
+
+
+        
+      
+        
+    </div>
+
+    <div id="table">
+
+    </div>
+
 
 </body>
 
-<footer>
+<script>
+    //прокрутка div'a вниз
+/*     var block = document.getElementById('main-window')
+    window.onload = function(){ block.scrollTop = block.scrollHeight;}
+    
+    //block.innerHTML = "<p>test sttt</p>"
+    let p = document.createElement('p')
+    p.innerHTML = '<p style="color:red;">test</p>'
+    block.appendChild(p) */
 
-</footer>
+</script>
